@@ -1,0 +1,31 @@
+METHODS to query in D3
+
+.select
+.append
+.text
+.selectAll
+
+
+const anchor = d3.select('ul')
+                 .append('li')
+                 .text('important');
+                 
+                 
+                 
+ APPEND THE TEXT OF A GROUP OF ELEMENTS
+ 
+ <body>
+  <ul>
+    <li>Example</li>
+    <li>Example</li>
+    <li>Example</li>
+  </ul>
+  <script>
+d3.selectAll('li')
+.text('list item')
+
+  </script>
+</body>
+
+
+
